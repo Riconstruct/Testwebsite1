@@ -16,7 +16,7 @@ ul{
     padding: 10px;
     gap: 10px;
     font-weight: bolder;
-    margin-right: 10px;
+    margin-right: 10px;    
 }
 
 a{
@@ -30,11 +30,12 @@ a:hover{
 .main{
     margin-left: -20px;
     margin-right: -20px;
-    background-color: orange;
+    background-color: #F48A27;
     display: flex;
     padding-left: 100px;
     gap: 30px;
     justify-content: space-between;
+    border: 8px solid #E8DCD0;
 }
 .welcome{
     display: flex;
@@ -64,17 +65,20 @@ button{
     display: flex;
     justify-content: center;
     gap: 52px;
+    border: 8px solid #E8DCD0;
+    
   }
   .testimonial{
       font-style: italic;
       font-weight: 400;
-      margin: 100px;
+      margin: 50px;
       
   }
   .grey{
-      background-color: rgb(185, 184, 184);
+      background-color: #F48A27;
       margin-left: -20px;
       margin-right: -20px;
+      border: 8px solid #E8DCD0;
   }
   .ctacontainer
 {
@@ -82,12 +86,18 @@ button{
     padding: 10px;
     width: 700px;
     height: 90px;
-    background-color: lightblue;
+    background-color: #F48A27;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: black;
+    border: 8px solid #E8DCD0;
 }
   .cta{
       margin-left:70px;
       text-align: left;
-      padding: 20px;
   }
+.seperator{
+    padding-bottom: 40px;
+}
